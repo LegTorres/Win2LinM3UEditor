@@ -30,7 +30,7 @@ def changePath(nombreArchivoOrigen, nuevaRuta, nombreArchivoDestino):
 
     archivo.close()
     nuevoArchivo.close()
-
+    print('\n Listo!: ' + str(len(lineas)) + ' Lineas Procesadas')
 
 def removeFirstSlash(ruta):
 
