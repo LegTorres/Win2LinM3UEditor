@@ -2,7 +2,7 @@ import sys
 
 def changePath(nombreArchivoOrigen, nuevaRuta, nombreArchivoDestino):
 
-    print('CONVIRTIENDO LISTA DE REPRODUCCION')
+    print(f'Editando lista de reproduccion:\n {nombreArchivoOrigen}\n\n')
 
     archivo = open(nombreArchivoOrigen, "r", encoding='utf-8')
     contenido = archivo.read()
@@ -30,7 +30,7 @@ def changePath(nombreArchivoOrigen, nuevaRuta, nombreArchivoDestino):
 
     archivo.close()
     nuevoArchivo.close()
-    print('\n Listo!: ' + str(len(lineas)) + ' Lineas Procesadas')
+    print(f' \n\nCompletado! Creada lista de reproduccion: {nombreArchivoDestino}.\n\n {str(len(lineas))} lineas procesadas\n\n')
 
 def removeFirstSlash(ruta):
 
