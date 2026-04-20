@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 
 # Creando un metodo para cambiar la ruta de las canciones.
