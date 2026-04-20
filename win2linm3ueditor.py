@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
-# Creando un metodo para cambiar la ruta de las canciones.
+# Metodo para cambiar la ruta de las canciones.
 def changePath(nombreArchivoOrigen, nuevaRuta, nombreArchivoDestino):
 
     print(f'Editando lista de reproduccion:\n {nombreArchivoOrigen}\n\n')
